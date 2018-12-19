@@ -7,7 +7,7 @@ pipeline {
         sh 'ls -l '
       }
     }
-    stage('Send E-mail') {
+    stage('Send') {
       steps {
         sh 'ls -l'
       }
